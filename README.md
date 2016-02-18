@@ -1,6 +1,6 @@
 # ebar0n/proxy-cache
-	
-	Created in order to optimize the development environment with limited internet connections
+
+Created in order to optimize the development environment with limited internet connections
 
 # Implements:
 
