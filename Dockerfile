@@ -19,9 +19,9 @@ RUN pip install -q -U devpi-server
 
 COPY squid.conf /etc/squid3/squid.conf
 COPY ./supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-RUN mkdir /optibus
-COPY *.sh /optibus/
-RUN chmod 755 /optibus/*.sh
+RUN mkdir /scripts
+COPY *.sh /scripts/
+RUN chmod 755 /scripts/*.sh
 
 VOLUME ["${SQUID_CACHE_DIR}"]
 VOLUME ["/var/cache/apt-cacher-ng"]
