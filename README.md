@@ -12,7 +12,7 @@
 	
 	
 	
-# Uso 
+# How to use it
 	
 	
 	
