@@ -1,0 +1,11 @@
+proxy-cache:
+  build: .
+  ports:
+    - "3128:3128"
+    - "3141:3141"
+    - "3142:3142"
+  volumes:
+    - /data/docker/squid/cache:/var/spool/squid3
+    - /data/docker/devpi:/var/.devpi/server
+    - /data/docker/aptcacherng:/var/cache/apt-cacher-ng
+  restart: always
