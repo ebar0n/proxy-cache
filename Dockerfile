@@ -28,7 +28,7 @@ VOLUME ["/var/cache/apt-cacher-ng"]
 VOLUME ["/var/.devpi/server"]
 
 EXPOSE 3128
-EXPOSE 3142
 EXPOSE 3141
+EXPOSE 3142
 
 CMD /usr/bin/supervisord -n
