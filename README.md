@@ -35,7 +35,7 @@ export https_proxy=http://localhost:3128
 
 ## Using [devpi-serve](http://doc.devpi.net/latest/)
 ```
-pip install --timeout [seg] -i http://localhost:3141/root/pypi/ [package]
+pip install [package] --timeout [seg] -i http://localhost:3141/root/pypi/
 ```
 
 ## Using [apt-cacher-ng](https://docs.docker.com/engine/examples/apt-cacher-ng/)
